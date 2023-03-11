@@ -1,3 +1,12 @@
 body {
-    background: blue;
+    background: url(./photos/mohammad.jpeg) center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.title {
+    text-align: center;
+    font-family: luminari;
+    font-size: 150%;
+    color: whitesmoke;
 }
