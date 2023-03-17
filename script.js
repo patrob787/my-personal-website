@@ -2,7 +2,7 @@ const submit = document.getElementById('button');
 const questionBox = document.getElementById('textbox');
 
 const answer = () => {
-    if (typeof questionBox.value === 'string') {
+    if (questionBox.value.length > 0) {
         let num = Math.floor(Math.random() * 8);
         if (num === 0) {
             alert('It is all but certain!');
