@@ -46,9 +46,8 @@ p {
 }
 
 #reveal {
-    border: medium dashed black;
     color: black;
-    font-size: large;
+    font-size: 2em;
 }
 
 #textbox {
