@@ -3,7 +3,7 @@ const questionBox = document.getElementById('textbox');
 
 const answer = () => {
     let text;
-    if (questionBox.value.length > 0) {
+    if (questionBox.value.length > 0 && questionBox.value[questionBox.value.length - 1] === '?') {
         let num = Math.floor(Math.random() * 8);
         if (num === 0) {
             text = 'It is all but certain!';
